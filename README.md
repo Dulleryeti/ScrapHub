@@ -4,6 +4,8 @@ Welcome to ScrapHub where you can find listings of scrap and buy them from other
 
 ## ScrapHub Screenshots
 
-![ScrapHome](ScrapHome.jpg)
+**Home Page**
+![Home](image.png)
 
-![DetailView](ScrapDetailView.jpg)
+**Detail View Page**
+![Detail](image-1.png)
