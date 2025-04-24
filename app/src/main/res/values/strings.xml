@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ScrapHub</string>
+    <string name="name_label">Henrys Scrap</string>
+    <string name="scrap_name_hint">Insert your scrap name Ex. Golden Cup</string>
+    <string name="scrap_username">Insert your name</string>
+    <string name="scrap_name_label">Scrap</string>
+    <string name="scrap_description_label">Description</string>
+    <string name="scrap_description_hint">Description of scrap you intend to sell</string>
+    <string name="scrap_price_label">Price</string>
+    <string name="scrap_price_hint">$999</string>
+    <string name="scrap_favorite_label">Add to Favorites</string>
+    <string name="new_scrap">New Scrap</string>
+
+</resources>

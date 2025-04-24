@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/scrap_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        android:text="@string/name_label"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/green"
+        android:textSize="30dp"
+
+
+        />
+
+
+    <ImageView
+        android:id="@+id/game_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/lethal_company" />
+
+    <TextView
+        android:id="@+id/scrap_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="Name"
+        android:textColor="@color/orange"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/scrap_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/scrap_username"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/orange"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/scrap_name_label"
+            android:textColor="@color/orange"
+            android:textAppearance="?attr/textAppearanceHeadline5"
+            android:textStyle="bold"
+
+            />
+
+        <ImageView
+            android:id="@+id/scrap_image"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:scaleType="center"
+            tools:src="@drawable/tea_kettle" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/scrap_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/scrap_name_hint"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/orange"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        android:text="@string/scrap_description_label"
+        android:textColor="@color/orange"
+        android:textStyle="bold"
+
+
+        />
+
+    <EditText
+        android:id="@+id/scrap_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="3"
+        android:hint="@string/scrap_description_hint"
+        android:gravity="top|start"
+        android:inputType="textMultiLine"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/orange"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        android:text="@string/scrap_price_label"
+        android:textColor="@color/orange"
+        android:textStyle="bold"
+
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$"
+            android:textSize="20dp"
+            android:textColor="@color/green"
+
+            />
+
+        <EditText
+            android:id="@+id/scrap_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:gravity="end"
+            android:textColorHint="@color/green"
+            android:textColor="@color/green"
+            android:backgroundTint="@color/orange"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/scrap_purchase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUY SCRAP"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/green"
+        android:textSize="18dp"
+
+        />
+
+    <CheckBox
+        android:id="@+id/scrap_favorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scrap_favorite_label"
+        android:textColor="@color/white"
+
+        />
+</LinearLayout>

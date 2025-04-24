@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/scrapListFragment">
+
+    <fragment
+        android:id="@+id/scrapListFragment"
+        android:name="com.example.scraphub.ScrapListFragment"
+        android:label="ScrapListFragment"
+        tools:layout="@layout/fragment_scrap_list">
+        <action
+            android:id="@+id/show_scrap_detail"
+            app:destination="@id/scrapDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/scrapDetailFragment"
+        android:name="com.example.scraphub.ScrapDetailFragment"
+        android:label="ScrapDetailFragment"
+        tools:layout="@layout/fragment_scrap_detail">
+        <argument
+            android:name="scrapId"
+            app:argType="java.util.UUID" />
+    </fragment>
+</navigation>
